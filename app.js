@@ -1,6 +1,6 @@
 var answer = parseInt(prompt("¿Que es lo que deseas hacer? \n 1.Cifrar \n 2.Descifrar"));
 var word = prompt("Ingrese el texto:");
-var offset = parseInt(prompt("Ingrese la cantidad de espacios:"));
+var offset = parseInt(prompt("Ingrese la cantidad de espacios:"))%26;
 var array = word.split("");
 var cipher_word = "";
 var decipher_word = "";
